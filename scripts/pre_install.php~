@@ -1,0 +1,31 @@
+<?php
+/*
+ * Part of SugarTalk Asterisk module
+ * © 2012 sugartalk.net | D1ma Z.
+ */
+ 
+function pre_install()
+{
+	if (check_already_install())
+	{
+		sugar_die('Данный модуль уже установлен.');
+	}
+	else {
+		echo 'Внимание! Перед установкой данного модуля, Вы должны убедиться, что в папке /custom/modules НЕ имеется в наличии файла logic_hooks.php.';
+	}
+}
+
+function check_already_install()
+{
+	$uh = new UpgradeHistory();
+	$uh->id_name = 'Asterisk';
+	$result = $uh->checkForExisting($uh);
+	
+	if ($result != null)
+	{
+		return true;
+	}
+	else {
+		return false;
+	}
+}

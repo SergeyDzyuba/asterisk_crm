@@ -1,22 +1,20 @@
 <?php
-// Do not store anything in this file that is not part of the array or the hook version.  This file will	
-// be automatically rebuilt in the future. 
- $hook_version = 1; 
-$hook_array = Array(); 
-// position, file, function 
-$hook_array['after_save'] = Array(); 
-$hook_array['after_save'][] = Array(1, 'AOD Index Changes', 'modules/AOD_Index/AOD_LogicHooks.php','AOD_LogicHooks', 'saveModuleChanges'); 
-$hook_array['after_save'][] = Array(30, 'popup_select', 'modules/SecurityGroups/AssignGroups.php','AssignGroups', 'popup_select'); 
-$hook_array['after_delete'] = Array(); 
-$hook_array['after_delete'][] = Array(1, 'AOD Index changes', 'modules/AOD_Index/AOD_LogicHooks.php','AOD_LogicHooks', 'saveModuleDelete'); 
-$hook_array['after_restore'] = Array(); 
-$hook_array['after_restore'][] = Array(1, 'AOD Index changes', 'modules/AOD_Index/AOD_LogicHooks.php','AOD_LogicHooks', 'saveModuleRestore'); 
-$hook_array['after_ui_footer'] = Array(); 
-$hook_array['after_ui_footer'][] = Array(10, 'popup_onload', 'modules/SecurityGroups/AssignGroups.php','AssignGroups', 'popup_onload'); 
-$hook_array['after_ui_frame'] = Array(); 
-$hook_array['after_ui_frame'][] = Array(20, 'mass_assign', 'modules/SecurityGroups/AssignGroups.php','AssignGroups', 'mass_assign'); 
-$hook_array['after_ui_frame'][] = Array(1, 'Load Social JS', 'include/social/hooks.php','hooks', 'load_js'); 
 
-
-
-?>
+// Do not store anything in this file that is not part of the array or the hook version.  This file will
+// be automatically rebuilt in the future.
+$hook_version = 1;
+$hook_array = array();
+// position, file, function
+$hook_array['after_ui_frame'] = array();
+$hook_array['after_ui_frame'][] = array(10000, 'Add Button for load form with reports settings', 'modules/OfficeReportsMerge/ReportHook.php', 'ReportHook', 'addButton');
+$hook_array['after_ui_frame'][] = array(13123123, 'add geocomplete lib', 'custom/modules/addGeoLib.php', 'addGeoLib', 'add');
+$hook_array['after_ui_frame'][] = array(1, 'Add new button to listview', 'custom/modules/XlsExport/UpdateListView.php', 'UpdateListView', 'addCustomButton');
+$hook_array['after_ui_frame'][] = array(2, 'Add kXML button to listview', 'modules/kXML/add_action.php', 'kXMLAction', 'addCustomButtonAction');
+$hook_array['after_ui_frame'][] = array(2, 'Добавить форму сохранения файла для XLS', 'custom/modules/Realty/xls/add_xls_window_save.php', 'xlsAction', 'addWindow');
+$hook_array['after_ui_footer'] = array();
+$hook_array['after_retrieve'] = array();
+$hook_array['after_retrieve'][] = array(1, 'acl_fields', 'modules/acl_fields/fields_logic.php', 'acl_fields_logic', 'limit_views');
+$hook_array['process_record'] = array();
+$hook_array['process_record'][] = array(1, 'acl_fields', 'modules/acl_fields/fields_logic.php', 'acl_fields_logic', 'limit_listviews');
+$hook_array['after_ui_frame'][] = array(666, 'add message script', 'custom/include/TabsFlags.php', 'MessageHook', 'addScript');
+$hook_array['after_ui_frame'][] = array(10, 'includeJS', 'modules/Asterisk/ext/HookJs.php', 'Hookjs', 'includeJS');

@@ -1,0 +1,74 @@
+<?php
+/*
+ * Part of SugarTalk Asterisk module
+ * © 2012 sugartalk.net | D1ma Z.
+ */
+ 
+function post_install()
+{
+	if ($_REQUEST['mode'] == 'Install')
+	{
+		$GLOBALS['log']->info('Start Reporting tool post install functions');
+		
+		repair_and_rebuild();
+		repair_and_rebuild(); // Вызывается два раза.
+		create_table();
+		
+		$GLOBALS['log']->info('End Reporting tool post install functions');
+	}
+	else {
+		$GLOBALS['log']->info('Start Reporting tool post uninstall functions');
+		
+		print_goodbye();
+		
+		$GLOBALS['log']->info('End Reporting tool post uninstall functions');
+	}
+}
+
+function repair_and_rebuild()
+{
+	require_once('modules/Administration/QuickRepairAndRebuild.php');
+	$repair_modules = array(
+		'Friday',
+	);
+	
+	$repair_actions = array(
+		'clearAll',
+	);
+	
+	$RepairAndClear = new RepairAndClear();
+	$RepairAndClear->repairAndClearAll($repair_actions, $repair_modules, $autoexecute = true, $show_output = false);
+	
+	ACLAction::addActions('Friday');
+	return true;
+}
+
+function print_goodbye()
+{
+	global $goodbye_html;
+	echo $goodbye_html;
+}
+
+function create_table()
+{
+	require_once 'config.php';
+	$db = mysql_connect('localhost', $sugar_config['dbconfig']['db_user_name'], $sugar_config['dbconfig']['db_password']);
+	if (!$db) die('Ошибка соединения: ' . mysql_error());
+	mysql_select_db($sugar_config['dbconfig']['db_name'], $db);
+	mysql_query("SET NAMES 'utf8'", $db);
+
+	$query = "CREATE TABLE IF NOT EXISTS `asterisk` (
+		`id` int(10) NOT NULL AUTO_INCREMENT,
+		`event` varchar(255) NOT NULL,
+		`operator` varchar(255) NOT NULL,
+		`state` varchar(255) NOT NULL,
+		`number` varchar(255) NOT NULL,
+		`unique_id` varchar(255) NOT NULL,
+		`date` datetime NOT NULL,
+		`status` tinyint(1) NOT NULL COMMENT '0 - идет вызов, 1 - вызов принят, 2 - разговор окончен, 3 - вызов пропущен, 4 - вызов отклонен',
+		PRIMARY KEY (`id`),
+		KEY `INDEX` (`operator`(16),`status`)
+	      ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1";
+	      
+	return mysql_query($query);
+}

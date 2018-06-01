@@ -1,0 +1,227 @@
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1527677418.352403' }
+Trying to save Outbound 1527677443.134
+Sent to save lid=1527677443.134 uid=1527677443.134 operator=201
+before request
+
+Trying to save Outbound 1527677551.136
+Sent to save lid=1527677551.136 uid=1527677551.136 operator=201
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1527678768.212879' }
+Mysql connected
+Switched to asterisk_cel_nami table
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1527774952.301137' }
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1527838002.686222' }
+Trying to save Outbound 1527838032.158
+Sent to save lid=1527838032.158 uid=1527838032.158 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1527841072.381417' }
+Trying to save Outbound 1527841088.160
+Sent to save lid=1527841088.160 uid=1527841088.160 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+Trying to save Outbound 1527842248.162
+Sent to save lid=1527842248.162 uid=1527842248.162 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1527843489.730260' }
+Trying to save Outbound 1527843824.164
+Sent to save lid=1527843824.164 uid=1527843824.164 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+Trying to save Outbound 1527843852.166
+Sent to save lid=1527843852.166 uid=1527843852.166 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1527845073.148231' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1527846274.857577' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1527847482.614092' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1527848677.371523' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1527849878.340902' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1527851079.672864' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1527852281.027656' }
+Trying to save Outbound 1527852750.168
+Sent to save lid=1527852750.168 uid=1527852750.168 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+Trying to save Outbound 1527852869.170
+Sent to save lid=1527852869.170 uid=1527852869.170 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
