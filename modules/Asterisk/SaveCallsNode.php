@@ -12,7 +12,7 @@ file_put_contents("_node.log", "got incoming uid=" . $_POST['unique_id'] . " lid
 
 $date = date('Y-m-d H:i:s');
 $parent = array();
-
+$GLOBALS['log']->logLevel($_POST);
 if (!empty($_POST['number'])) {
     $operator = substr(str_replace(array(' ', '+', '/', '(', ')', '[', ']', '-', '.'), '', $_POST['operator']), -10);
     $number = str_replace(array(' ', '+', '/', '(', ')', '[', ']', '-', '.'), '', $_POST['number']); // Приведем в порядок наш номер.

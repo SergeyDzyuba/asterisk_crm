@@ -41,5 +41,5 @@ $dictionary['User']['fields']['asterisk_password'] = array(
     'vname' => 'LBL_ASTERISK_PASSWORD',
     'type' => 'varchar',
     'len' => 255,
-    'required' => true,
+    'required' => false,
 );

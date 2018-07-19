@@ -72,6 +72,7 @@ con.connect(function (err) {
 
                                         database.query('USE asterisk_crm_db ')
                                                 .then(rows => {
+                                                    console.log('linkedID:'+event.LinkedID);
                                                     return database.query('SELECT calleridnum as cid1, u.id as uid FROM ' + table + ' ac left join users u on ac.calleridnum = u.asterisk_extension WHERE char_length(calleridnum) < 4 AND linked_id = "' + event.LinkedID + '" ORDER BY ac.id DESC LIMIT 1');
                                                 })
                                                 .then(rows => {
@@ -101,18 +102,27 @@ con.connect(function (err) {
                                                 })
                                                 .then(rows => {
                                                     let numbers = [];
-                                                    if (rows != null) {
+                                                    // console.log('rows');
+                                                    // console.log(rows);
+                                                    // console.log('data:');
+                                                    // console.log(data);
+                                                    if (rows.length !== 0) {
+                                                    // if (rows != null) {//проверка на пропущенный? если да,то не работает. нужна проверка на length == 0
                                                         if (data.user_id != null) {
                                                             if (data.user_id == 1 || data.user_id.length == 36)
                                                                 if (data.number.length > 8)
                                                                     if (data.operator.length == 3)
                                                                         if (data.direction.length > 1) {
                                                                             // try save
+                                                                            // console.log('rows');
+                                                                            // console.log(rows);
                                                                             for (let i = 0, len = rows.length; i < len; i++) {
-                                                                                data.operator = rows[i].calleridnum;
-                                                                                data.unique_id = rows[i].unique_id;
-                                                                                console.log("Trying to save " + data.direction + " " + data.linked_id);
-                                                                                save(data);
+                                                                                if (rows[i].calleridnum==data.operator) {//без этого условия входящий сохраняется дважды
+                                                                                    data.operator = rows[i].calleridnum;
+                                                                                    data.unique_id = rows[i].unique_id;
+                                                                                    console.log("Trying to save " + data.direction + " " + data.linked_id);
+                                                                                    save(data);
+                                                                                }
                                                                             }
                                                                         }
                                                             return true;
@@ -120,6 +130,9 @@ con.connect(function (err) {
                                                             console.log("no user for " + data.operator + " = skip saving");
                                                         }
                                                     } else {
+                                                        if (data.user_id==null){
+                                                            data.user_id='';
+                                                        }
                                                         //try save missing call
                                                         console.log("Trying to save missing " + data.linked_id);
                                                         save(data);
@@ -150,7 +163,7 @@ con.connect(function (err) {
 
 function is_user(ext) {
     var q = "SELECT id FROM users WHERE asterisk_extension = '" + ext + "' AND deleted = 0 LIMIT 1";
-    console.log(q);
+    // console.log(q);
     con.query(q, function (err, result) {
         if (err) {
             // throw err;
@@ -196,7 +209,7 @@ function save(data)
             unique_id: data.unique_id,
             linked_id: data.linked_id,
             audio_file_name: data.audio_file_name,
-            source: "nodejs"
+            source: "",
         }
     };
 

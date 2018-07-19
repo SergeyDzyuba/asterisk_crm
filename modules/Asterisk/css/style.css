@@ -99,9 +99,10 @@
   background: linear-gradient(to bottom, #5db139 0%, #83ce63 100%);
 }
 .window.window-phone-book {
-  width: 322px;
+  width: 304px;
   height: 328px;
   overflow: hidden;
+  position: fixed;
 }
 .window.window-phone-book .close {
   right: 8px;
@@ -890,4 +891,77 @@ input[type="text"].field {
     padding-left: 8px;
     padding-right: 8px;
     margin-bottom: 0px !important;
+}
+
+#popup_form,#softphone_form,#popup_call_form {
+   position:fixed;
+   right:20px;
+   top:100px;
+ }
+
+.cell{
+  display: table-cell;
+  padding:5px;
+}
+
+.row{
+  display: table-row;
+}
+/*#description{*/
+  /*width:185%;*/
+/*}*/
+
+.colspan{
+  width:200%;
+}
+
+#popup_call_form textarea#description {
+  resize: none;
+}
+
+.add-call, .remove-call {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #42839e;
+  padding-left: 36px;
+  position: relative;
+  cursor: pointer;
+}
+.add-call:before, .remove-call:before {
+  content: '';
+  position: absolute;
+  background-image: url('../img/sprites2-s2c6b1db878.png');
+  background-position: 0 -224px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  height: 24px;
+  width: 25px;
+  display: block;
+  overflow: hidden;
+  left: 5px;
+  top: 0;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  .add-call:before, .remove-call:before {
+    background-image: url('../img/sprites@2x-s06bdcd86a4.png');
+    background-size: 87px 193px;
+    background-position: 0 0;
+    height: 24px;
+    width: 25px;
+  }
+}
+
+.remove-call {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #f08377;
+  padding-left: 36px;
+  position: relative;
+  cursor: pointer;
+}
+
+.phone_link{
+  background-color: #a2b2bf;
 }

@@ -7,4 +7,5 @@
 $mod_strings = array(
     'LBL_ASTERISK_AUDIO_FILE' => 'Запись разговора',
     'LBL_DURATION_SECONDS' => 'сек.',
+    'LBL_CLIENT_NAME' => 'ФИО клиента',
 );

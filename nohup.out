@@ -1,0 +1,106 @@
+
+Strict Standards: Declaration of LoggerLiteralPatternConverter::convert() should be compatible with LoggerPatternConverter::convert($event) in C:\OpenServer\domains\asterisk.crm\PAMI\Log4PHP\helpers\LoggerLiteralPatternConverter.php on line 62
+
+Strict Standards: Declaration of LoggerLiteralPatternConverter::format() should be compatible with LoggerPatternConverter::format(&$sbuf, $e) in C:\OpenServer\domains\asterisk.crm\PAMI\Log4PHP\helpers\LoggerLiteralPatternConverter.php on line 62
+
+Deprecated: mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\OpenServer\domains\asterisk.crm\service\asterisk\CRUDModel.php on line 20
+Sorry, the service returned the following ERROR: Client-DTD are not supported by SOAP.
+Strict Standards: Declaration of LoggerLiteralPatternConverter::convert() should be compatible with LoggerPatternConverter::convert($event) in C:\OpenServer\domains\asterisk.crm\PAMI\Log4PHP\helpers\LoggerLiteralPatternConverter.php on line 62
+
+Strict Standards: Declaration of LoggerLiteralPatternConverter::format() should be compatible with LoggerPatternConverter::format(&$sbuf, $e) in C:\OpenServer\domains\asterisk.crm\PAMI\Log4PHP\helpers\LoggerLiteralPatternConverter.php on line 62
+
+Deprecated: mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\OpenServer\domains\asterisk.crm\service\asterisk\CRUDModel.php on line 20
+
+Deprecated: mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\OpenServer\domains\asterisk.crm\service\asterisk\CRUDModel.php on line 20
+Sorry, the service returned the following ERROR: Client-DTD are not supported by SOAP.
+Strict Standards: Declaration of LoggerLiteralPatternConverter::convert() should be compatible with LoggerPatternConverter::convert($event) in C:\OpenServer\domains\asterisk.crm\PAMI\Log4PHP\helpers\LoggerLiteralPatternConverter.php on line 62
+
+Strict Standards: Declaration of LoggerLiteralPatternConverter::format() should be compatible with LoggerPatternConverter::format(&$sbuf, $e) in C:\OpenServer\domains\asterisk.crm\PAMI\Log4PHP\helpers\LoggerLiteralPatternConverter.php on line 62
+
+Deprecated: mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\OpenServer\domains\asterisk.crm\service\asterisk\CRUDModel.php on line 20
+
+Deprecated: mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\OpenServer\domains\asterisk.crm\service\asterisk\CRUDModel.php on line 20
+
+Deprecated: mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\OpenServer\domains\asterisk.crm\service\asterisk\CRUDModel.php on line 20
+
+Deprecated: mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\OpenServer\domains\asterisk.crm\service\asterisk\CRUDModel.php on line 20
+
+Deprecated: mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\OpenServer\domains\asterisk.crm\service\asterisk\CRUDModel.php on line 20
+Sorry, the service returned the following ERROR: Client-DTD are not supported by SOAP.
+Strict Standards: Declaration of LoggerLiteralPatternConverter::convert() should be compatible with LoggerPatternConverter::convert($event) in C:\OpenServer\domains\asterisk.crm\PAMI\Log4PHP\helpers\LoggerLiteralPatternConverter.php on line 62
+
+Strict Standards: Declaration of LoggerLiteralPatternConverter::format() should be compatible with LoggerPatternConverter::format(&$sbuf, $e) in C:\OpenServer\domains\asterisk.crm\PAMI\Log4PHP\helpers\LoggerLiteralPatternConverter.php on line 62
+
+Deprecated: mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\OpenServer\domains\asterisk.crm\service\asterisk\CRUDModel.php on line 20
+
+Strict Standards: Declaration of LoggerLiteralPatternConverter::convert() should be compatible with LoggerPatternConverter::convert($event) in C:\OpenServer\domains\asterisk.crm\PAMI\Log4PHP\helpers\LoggerLiteralPatternConverter.php on line 62
+
+Strict Standards: Declaration of LoggerLiteralPatternConverter::format() should be compatible with LoggerPatternConverter::format(&$sbuf, $e) in C:\OpenServer\domains\asterisk.crm\PAMI\Log4PHP\helpers\LoggerLiteralPatternConverter.php on line 62
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915
+
+Fatal error: Call to undefined function DateUpdate() in C:\OpenServer\domains\asterisk.crm\class.PHPWebSocket.php on line 915

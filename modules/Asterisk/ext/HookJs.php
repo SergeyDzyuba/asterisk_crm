@@ -3,7 +3,7 @@
  * Part of SugarTalk Asterisk module
  * © 2012 sugartalk.net | D1ma Z.
  */
- 
+
 class Hookjs
 {
     /**
@@ -13,11 +13,11 @@ class Hookjs
     public function includeJS()
     {
         global $current_user;
-        
+
         $GLOBALS['log']->debug('------------  '. __CLASS__ . '::' . __FUNCTION__ . ' BEGIN ------------');
-        
+
         if (empty($_REQUEST['to_pdf']) && (!empty($_REQUEST['module']) && $_REQUEST['module'] != 'ModuleBuilder') && empty($_REQUEST['to_csv']) && (empty($_REQUEST['action']) || $_REQUEST['action'] != 'modulelistmenu')) {
-           
+
             if ($_REQUEST['module'] != 'Calendar' && $_GET['action']!='QuickEdit') {
                 if ($current_user->asterisk_call_notification) {
                     echo '<input type=hidden id="user_asterisk_extension" value="' . $current_user->asterisk_extension . '"></input>';
@@ -26,7 +26,6 @@ class Hookjs
                 }
 
                 if ($current_user->asterisk_softphone) {
-                    $GLOBALS['log']->logLevel('imhere');
                     //style//
                     echo '<link type="text/css" href="modules/Asterisk/css/normalize.css" rel="stylesheet" media="screen" />';
                     echo '<link type="text/css" href="modules/Asterisk/css/style.css" rel="stylesheet" media="screen" />';
@@ -52,6 +51,7 @@ class Hookjs
                     // echo '<script type="text/javascript" src="modules/Asterisk/js/SIPml-api.js"></script>';
                     // echo '<script type="text/javascript" src="modules/Asterisk/js/softphone.js"></script>';
                     // } else {
+
                     echo '<audio id="ringtone" src="phone/sounds/incoming.mp3" loop></audio>';
                     echo '<audio id="ringbacktone" src="phone/sounds/outgoing.mp3" loop></audio>';
                     echo '<audio id="dtmfTone" src="phone/sounds/dtmf.mp3"></audio>';
@@ -76,11 +76,11 @@ class Hookjs
 
                 if ($current_user->asterisk_dial_buttons) {
                     echo '<script type="text/javascript" src="fancywebsocket.js"></script>';
-                    echo '<script type="text/javascript" src="modules/Asterisk/js/popup.js"></script>'; // Всплывашка
-                    echo '<script type="text/javascript" src="modules/Asterisk/js/call.js"></script>';
+//                    echo '<script type="text/javascript" src="modules/Asterisk/js/popup.js"></script>'; // Всплывашка
+//                    echo '<script type="text/javascript" src="modules/Asterisk/js/call.js"></script>';
                 }
             };
-           
+
             $GLOBALS['log']->debug('includeJS: OK');
         } else {
             $GLOBALS['log']->debug('includeJS: KO');

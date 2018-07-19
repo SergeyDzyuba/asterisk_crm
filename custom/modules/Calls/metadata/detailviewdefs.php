@@ -176,12 +176,17 @@ array (
             'customLabel' => '{sugar_translate label=\'LBL_MODULE_NAME\' module=$fields.parent_type.value}',
           ),
         ),
-        2 => 
+        2 =>
+        array(
+            0 => 'client_name',
+            1 => 'phone',
+        ),
+        3 =>
         array (
           0 => 
           array (
             'name' => 'duration_hours',
-            'customCode' => '{$fields.duration_hours.value}{$MOD.LBL_HOURS_ABBREV} {$fields.duration_minutes.value}{$MOD.LBL_MINSS_ABBREV}&nbsp;',
+            'customCode' => '{$fields.duration_hours.value}{$MOD.LBL_HOURS_ABBREV} {$fields.duration_minutes.value}{$MOD.LBL_MINSS_ABBREV} {$fields.duration_seconds.value}{$MOD.LBL_DURATION_SECONDS}&nbsp;',
             'label' => 'LBL_DURATION',
           ),
 //          1 =>
@@ -195,7 +200,7 @@ array (
                     'label' => 'LBL_REMINDERS',
                 ),
         ),
-        3 => 
+        4 =>
         array (
           0 => 
           array (
@@ -205,7 +210,7 @@ array (
           ),
             1 => 'asterisk_audio_file',
         ),
-        4 => 
+        5 =>
         array (
           0 => 
           array (

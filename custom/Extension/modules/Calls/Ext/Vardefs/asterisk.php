@@ -30,3 +30,28 @@ $dictionary['Call']['fields']['phone'] = array(
     'len' => '25',
     'required' => false,
 );
+
+$dictionary['Call']['fields']['unique_id'] = array(
+    'name' => 'unique_id',
+    'vname' => 'LBL_UNIQUE_ID',
+    'type' => 'varchar',
+    'len' => '30',
+    'required' => false,
+);
+
+$dictionary['Call']['fields']['linked_id'] = array(
+    'name' => 'linked_id',
+    'vname' => 'LBL_LINKED_ID',
+    'type' => 'varchar',
+    'len' => '30',
+    'required' => false,
+);
+
+$dictionary['Call']['fields']['phone_additional'] = array(
+    'name' => 'phone_additional',
+    'vname' => 'LBL_PHONE_ADDITIONAL',
+    'dbtype' => 'varchar',
+    'type' => 'phone',
+    'len' => '25',
+    'required' => false,
+);

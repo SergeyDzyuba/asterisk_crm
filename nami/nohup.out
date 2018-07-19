@@ -2,13 +2,104 @@ Mysql connected
 Switched to asterisk_cel_nami table
 { Response: 'Success',
   Ping: 'Pong',
-  Timestamp: '1527677418.352403' }
-Trying to save Outbound 1527677443.134
-Sent to save lid=1527677443.134 uid=1527677443.134 operator=201
+  Timestamp: '1530024974.892584' }
+data:
+{ user_id: '1',
+  number: '+74959892064',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530025006.1022',
+  unique_id: '1530025006.1022',
+  audio_file_name: '1530025006.1022' }
+start trying
+data:
+{ user_id: '1',
+  number: '+74959664993',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530025125.1026',
+  unique_id: '1530025125.1026',
+  audio_file_name: '1530025125.1026' }
+start trying
+Mysql connected
+Switched to asterisk_cel_nami table
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530025144.122075' }
+data:
+{ user_id: '1',
+  number: '+74950098975',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530025169.1030',
+  unique_id: '1530025169.1030',
+  audio_file_name: '1530025169.1030' }
+start trying
+[]
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530025261.331652' }
+data:
+{ user_id: '1',
+  number: '+74959664993',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530025362.1034',
+  unique_id: '1530025362.1034',
+  audio_file_name: '1530025362.1034' }
+start trying
+[]
+0
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530080617.219062' }
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530081115.350885' }
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530081216.697607' }
+data:
+{ user_id: '1',
+  number: '+74950098975',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530081310.1052',
+  unique_id: '1530081310.1052',
+  audio_file_name: '1530081310.1052' }
+Trying to save missing 1530081310.1052
+Sent to save lid=1530081310.1052 uid=1530081310.1052 operator=203
 before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
 
-Trying to save Outbound 1527677551.136
-Sent to save lid=1527677551.136 uid=1527677551.136 operator=201
+Mysql connected
+Switched to asterisk_cel_nami table
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530103060.929534' }
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530103072.1061',
+  unique_id: '1530103072.1061',
+  audio_file_name: '1530103072.1061' }
+Trying to save Outbound 1530103072.1061
+Sent to save lid=1530103072.1061 uid=1530103072.1061 operator=203
 before request
 <br />
 <b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
@@ -29,21 +120,490 @@ Mysql connected
 Switched to asterisk_cel_nami table
 { Response: 'Success',
   Ping: 'Pong',
-  Timestamp: '1527678768.212879' }
+  Timestamp: '1530104363.273825' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530105564.669940' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530106767.535884' }
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530107705.646153' }
+data:
+{ user_id: '1',
+  number: '+74959664993',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530107721.1066',
+  unique_id: '1530107721.1066',
+  audio_file_name: '1530107721.1066' }
+Trying to save missing 1530107721.1066
+Sent to save lid=1530107721.1066 uid=1530107721.1066 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '1',
+  number: '+74950098975',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530107940.1070',
+  unique_id: '1530107940.1070',
+  audio_file_name: '1530107940.1070' }
+Trying to save Inbound 1530107940.1070
+Sent to save lid=1530107940.1070 uid=1530107940.1073 operator=203
+before request
+Trying to save Inbound 1530107940.1070
+Sent to save lid=1530107940.1070 uid=1530107940.1071 operator=4997030211
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530109166.626995' }
 Mysql connected
 Switched to asterisk_cel_nami table
 Mysql connected
 Switched to asterisk_cel_nami table
 { Response: 'Success',
   Ping: 'Pong',
-  Timestamp: '1527774952.301137' }
+  Timestamp: '1530184071.166823' }
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530184126.1085',
+  unique_id: '1530184126.1085',
+  audio_file_name: '1530184126.1085' }
+Trying to save Outbound 1530184126.1085
+Sent to save lid=1530184126.1085 uid=1530184126.1085 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '1',
+  number: '+74959664993',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530184246.1087',
+  unique_id: '1530184246.1087',
+  audio_file_name: '1530184246.1087' }
+Trying to save missing 1530184246.1087
+Sent to save lid=1530184246.1087 uid=1530184246.1087 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '1',
+  number: '+74950098975',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530184277.1091',
+  unique_id: '1530184277.1091',
+  audio_file_name: '1530184277.1091' }
+Trying to save Inbound 1530184277.1091
+Sent to save lid=1530184277.1091 uid=1530184279.1094 operator=203
+before request
+Trying to save Inbound 1530184277.1091
+Sent to save lid=1530184277.1091 uid=1530184277.1092 operator=4997030211
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530184532.1095',
+  unique_id: '1530184532.1095',
+  audio_file_name: '1530184532.1095' }
+Trying to save Outbound 1530184532.1095
+Sent to save lid=1530184532.1095 uid=1530184532.1095 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530184590.1097',
+  unique_id: '1530184590.1097',
+  audio_file_name: '1530184590.1097' }
+Trying to save Outbound 1530184590.1097
+Sent to save lid=1530184590.1097 uid=1530184590.1097 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530184654.1099',
+  unique_id: '1530184654.1099',
+  audio_file_name: '1530184654.1099' }
+Trying to save Outbound 1530184654.1099
+Sent to save lid=1530184654.1099 uid=1530184654.1099 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '1',
+  number: '+79788274903',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530184711.1101',
+  unique_id: '1530184711.1101',
+  audio_file_name: '1530184711.1101' }
+Trying to save missing 1530184711.1101
+Sent to save lid=1530184711.1101 uid=1530184711.1101 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '1',
+  number: '+74959664993',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530184951.1105',
+  unique_id: '1530184951.1105',
+  audio_file_name: '1530184951.1105' }
+Trying to save missing 1530184951.1105
+Sent to save lid=1530184951.1105 uid=1530184951.1105 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '1',
+  number: '+79788274903',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530185033.1109',
+  unique_id: '1530185033.1109',
+  audio_file_name: '1530185033.1109' }
+Trying to save missing 1530185033.1109
+Sent to save lid=1530185033.1109 uid=1530185033.1109 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '1',
+  number: '+79788274903',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530185062.1113',
+  unique_id: '1530185062.1113',
+  audio_file_name: '1530185062.1113' }
+Trying to save missing 1530185062.1113
+Sent to save lid=1530185062.1113 uid=1530185062.1113 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '1',
+  number: '+74950098975',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530185413.1117',
+  unique_id: '1530185413.1117',
+  audio_file_name: '1530185413.1117' }
+Trying to save missing 1530185413.1117
+Sent to save lid=1530185413.1117 uid=1530185413.1117 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '1',
+  number: '+74959892064',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530185526.1121',
+  unique_id: '1530185526.1121',
+  audio_file_name: '1530185526.1121' }
+Trying to save missing 1530185526.1121
+Sent to save lid=1530185526.1121 uid=1530185526.1121 operator=203
+before request
+
+(node:3560) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'cid1' of undefined
+    at database.query.then.then.rows (C:\OpenServer\domains\asterisk.crm\nami\app.js:78:77)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+(node:3560) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:3560) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+data:
+{ user_id: '1',
+  number: '+74950098975',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530185613.1126',
+  unique_id: '1530185613.1126',
+  audio_file_name: '1530185613.1126' }
+Trying to save Inbound 1530185613.1126
+Sent to save lid=1530185613.1126 uid=1530185614.1129 operator=203
+before request
+Trying to save Inbound 1530185613.1126
+Sent to save lid=1530185613.1126 uid=1530185613.1127 operator=4997030211
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530185872.1130',
+  unique_id: '1530185872.1130',
+  audio_file_name: '1530185872.1130' }
+Trying to save Outbound 1530185872.1130
+Sent to save lid=1530185872.1130 uid=1530185872.1130 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530186436.1132',
+  unique_id: '1530186436.1132',
+  audio_file_name: '1530186436.1132' }
+Trying to save Outbound 1530186436.1132
+Sent to save lid=1530186436.1132 uid=1530186436.1132 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
 Mysql connected
 Switched to asterisk_cel_nami table
 { Response: 'Success',
   Ping: 'Pong',
-  Timestamp: '1527838002.686222' }
-Trying to save Outbound 1527838032.158
-Sent to save lid=1527838032.158 uid=1527838032.158 operator=203
+  Timestamp: '1530187662.577686' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530188857.768802' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530190058.553032' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530191259.267164' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530192460.314432' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530193661.157235' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530194862.235215' }
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530195655.066791' }
+data:
+{ user_id: '1',
+  number: '+74959892064',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530195700.1134',
+  unique_id: '1530195700.1134',
+  audio_file_name: '1530195700.1134' }
+Trying to save missing 1530195700.1134
+Sent to save lid=1530195700.1134 uid=1530195700.1134 operator=203
+before request
+
+data:
+{ user_id: '1',
+  number: '+74959664993',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530195766.1141',
+  unique_id: '1530195766.1141',
+  audio_file_name: '1530195766.1141' }
+Trying to save missing 1530195766.1141
+Sent to save lid=1530195766.1141 uid=1530195766.1141 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '1',
+  number: '+74950098975',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530195824.1148',
+  unique_id: '1530195824.1148',
+  audio_file_name: '1530195824.1148' }
+Trying to save missing 1530195824.1148
+Sent to save lid=1530195824.1148 uid=1530195824.1148 operator=203
 before request
 <br />
 <b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
@@ -52,15 +612,205 @@ Mysql connected
 Switched to asterisk_cel_nami table
 { Response: 'Success',
   Ping: 'Pong',
-  Timestamp: '1527841072.381417' }
-Trying to save Outbound 1527841088.160
-Sent to save lid=1527841088.160 uid=1527841088.160 operator=203
+  Timestamp: '1530195995.405627' }
+data:
+{ user_id: '1',
+  number: '+74959892064',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530196016.1155',
+  unique_id: '1530196016.1155',
+  audio_file_name: '1530196016.1155' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530196016.1158' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530196016.1156' } ]
+Trying to save Inbound 1530196016.1155
+Sent to save lid=1530196016.1155 uid=1530196016.1158 operator=203
+before request
+Trying to save Inbound 1530196016.1155
+Sent to save lid=1530196016.1155 uid=1530196016.1156 operator=4997030211
+before request
+
+
+Mysql connected
+Switched to asterisk_cel_nami table
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530196537.545617' }
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530196558.1159',
+  unique_id: '1530196558.1159',
+  audio_file_name: '1530196558.1159' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530196558.1159' } ]
+Mysql connected
+Switched to asterisk_cel_nami table
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530196659.970013' }
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530196671.1161',
+  unique_id: '1530196671.1161',
+  audio_file_name: '1530196671.1161' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530196671.1161' } ]
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530196765.831653' }
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530196781.1163',
+  udata:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530196781.1163',
+  unique_id: '1530196781.1163',
+  audio_file_name: '1530196781.1163' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530196781.1163'<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\doma<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_adddata:
+{ user_id: '1',
+  number: '+74959664993',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530196850.1165',
+  udata:
+{ user_id: '1',
+  number: '+74959664993',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530196850.1165',
+  unique_id: '1530196850.1165',
+  audio_file_name: '1530196850.1165' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530196851.1168' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530196851.1166<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\doma<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+Mysql connected
+Switched to asterisk_cel_nami table
+Mysql connected
+Switched to asterisk_cel_nami table
+Mysql connected
+Switched to asterisk_cel_nami table
+Mysql connected
+Switched to asterisk_cel_nami table
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530197015.277683' }
+Mysql connected
+Switched to asterisk_cel_nami table
+Mysql connected
+Switched to asterisk_cel_nami table
+Mysql connected
+Switched to asterisk_cel_nami table
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530251775.691959' }
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530251831.1169',
+  unique_id: '1530251831.1169',
+  audio_file_name: '1530251831.1169' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530251831.1169' } ]
+Trying to save Outbound 1530251831.1169
+Sent to save lid=1530251831.1169 uid=1530251831.1169 operator=203
 before request
 <br />
 <b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
 
-Trying to save Outbound 1527842248.162
-Sent to save lid=1527842248.162 uid=1527842248.162 operator=203
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530253054.700644' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530254255.411862' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530255456.094139' }
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530256333.1171',
+  unique_id: '1530256333.1171',
+  audio_file_name: '1530256333.1171' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530256333.1171' } ]
+Trying to save Outbound 1530256333.1171
+Sent to save lid=1530256333.1171 uid=1530256333.1171 operator=203
 before request
 <br />
 <b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
@@ -81,15 +831,284 @@ Mysql connected
 Switched to asterisk_cel_nami table
 { Response: 'Success',
   Ping: 'Pong',
-  Timestamp: '1527843489.730260' }
-Trying to save Outbound 1527843824.164
-Sent to save lid=1527843824.164 uid=1527843824.164 operator=203
+  Timestamp: '1530257560.552778' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530258756.118166' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530259956.867078' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530261157.642273' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530262358.390759' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530263559.091467' }
+data:
+{ user_id: '1',
+  number: '+79788274903',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530263612.1173',
+  unique_id: '1530263612.1173',
+  audio_file_name: '1530263612.1173' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530263613.1179' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530263612.1176' } ]
+Trying to save Inbound 1530263612.1173
+Sent to save lid=1530263612.1173 uid=1530263613.1179 operator=203
 before request
 <br />
 <b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
 
-Trying to save Outbound 1527843852.166
-Sent to save lid=1527843852.166 uid=1527843852.166 operator=203
+data:
+{ user_id: '1',
+  number: '+79788274903',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530263674.1180',
+  unique_id: '1530263674.1180',
+  audio_file_name: '1530263674.1180' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530263675.1186' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530263674.1183' } ]
+Trying to save Inbound 1530263674.1180
+Sent to save lid=1530263674.1180 uid=1530263675.1186 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530263775.719902' }
+data:
+{ user_id: null,
+  number: '+79788274903',
+  operator: '202',
+  direction: 'Inbound',
+  linked_id: '1530263804.1187',
+  unique_id: '1530263804.1187',
+  audio_file_name: '1530263804.1187' }
+Trying to save missing 1530263804.1187
+Sent to save lid=1530263804.1187 uid=1530263804.1187 operator=202
+before request
+(node:8988) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'name' of null
+    at FormData._getContentDisposition (C:\OpenServer\domains\asterisk.crm\nami\node_modules\form-data\lib\form_data.js:226:40)
+    at FormData._multiPartHeader (C:\OpenServer\domains\asterisk.crm\nami\node_modules\form-data\lib\form_data.js:177:33)
+    at FormData.append (C:\OpenServer\domains\asterisk.crm\nami\node_modules\form-data\lib\form_data.js:70:21)
+    at appendFormValue (C:\OpenServer\domains\asterisk.crm\nami\node_modules\request\request.js:323:21)
+    at Request.init (C:\OpenServer\domains\asterisk.crm\nami\node_modules\request\request.js:334:11)
+    at new Request (C:\OpenServer\domains\asterisk.crm\nami\node_modules\request\request.js:128:8)
+    at request (C:\OpenServer\domains\asterisk.crm\nami\node_modules\request\index.js:53:10)
+    at save (C:\OpenServer\domains\asterisk.crm\nami\app.js:212:5)
+    at database.query.then.then.then.then.then.rows (C:\OpenServer\domains\asterisk.crm\nami\app.js:132:57)
+    at <anonymous>
+(node:8988) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:8988) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that (node:4820) [DEP0018] DeprecationWarning: Unhandled promise rejections are depdisconnect
+ the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+disconnect
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530264084.596320' }
+disconnect
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530264101.602178' }
+data:
+{ user_id: '1',
+  number: '+79788274903',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530264342.1201',
+  unique_id: '1530264342.1201',
+  audio_file_name: '1530264342.1201' }
+Trying to save missing 1530264342.1201
+Sent to save lid=1530264342.1201 uid=1530264342.1201 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: null,
+  number: '+79788274903',
+  operator: '202',
+  direction: 'Inbound',
+  linked_id: '1530264468.1208',
+  unique_id: '1530264468.1208',
+  audio_file_name: '1530264468.1208' }
+Trying to save missing 1530264468.1208
+Sent to save lid=1530264468.1208 uid=1530264468.1208 operator=202
+before request
+(node:8276) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'name' of null
+    at FormData._getContentDisposition (C:\OpenServer\domains\asterisk.crm\nami\node_modules\form-data\lib\form_data.js:226:40)
+    at FormData._multiPartHeader (C:\OpenServer\domains\asterisk.crm\nami\node_modules\form-data\lib\form_data.js:177:33)
+    at FormData.append (C:\OpenServer\domains\asterisk.crm\nami\node_modules\form-data\lib\form_data.js:70:21)
+    at appendFormValue (C:\OpenServer\domains\asterisk.crm\nami\node_modules\request\request.js:323:21)
+    at Request.init (C:\OpenServer\domains\asterisk.crm\nami\node_modules\request\request.js:334:11)
+    at new Request (C:\OpenServer\domains\asterisk.crm\nami\node_modules\request\request.js:128:8)
+    at request (C:\OpenServer\domains\asterisk.crm\nami\node_modules\request\index.js:53:10)
+    at save (C:\OpenServer\domains\asterisk.crm\nami\app.js:212:5)
+    at database.query.then.then.then.then.then.rows (C:\OpenServer\domains\asterisk.crm\nami\app.js:132:57)
+    at <anonymous>
+(node:8276) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:8276) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Mysql connected
+Switched to asterisk_cel_nami table
+Mysql connected
+Switched to asterisk_cel_nami table
+Mysql connected
+Switched to asterisk_cel_nami table
+Mysql connected
+Switched to asterisk_cel_nami table
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530264637.958055' }
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530264643.268050' }
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530264645.677927' }
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530264648.687379' }
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530264653.630943' }
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530264661.385342' }
+data:
+{ user_id: null,
+  number: '+79788274903',
+  operator: '202',
+  direction: 'Inbound',
+  linked_id: '1530264684.1215',
+  unique_id: '1530264684.1215',
+  audio_file_name: '1530264684.1215' }
+Trying to save missing 1530264684.1215
+Sent to save lid=1530264684.1215 uid=1530264684.1215 operator=202
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530514086.067176' }
+disconnect
+Mysql connected
+Switched to asterisk_cel_nami table
+disconnect
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530514112.568546' }
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530514105.1222',
+  unique_id: '1530514105.1222',
+  audio_file_name: '1530514105.1222' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530514105.1222' } ]
+Trying to save Outbound 1530514105.1222
+Sent to save lid=1530514105.1222 uid=1530514105.1222 operator=203
 before request
 <br />
 <b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
@@ -110,7 +1129,7 @@ Mysql connected
 Switched to asterisk_cel_nami table
 { Response: 'Success',
   Ping: 'Pong',
-  Timestamp: '1527845073.148231' }
+  Timestamp: '1530515335.436029' }
 events.js:183
       throw er; // Unhandled 'error' event
       ^
@@ -127,7 +1146,7 @@ Mysql connected
 Switched to asterisk_cel_nami table
 { Response: 'Success',
   Ping: 'Pong',
-  Timestamp: '1527846274.857577' }
+  Timestamp: '1530516536.290930' }
 events.js:183
       throw er; // Unhandled 'error' event
       ^
@@ -144,7 +1163,7 @@ Mysql connected
 Switched to asterisk_cel_nami table
 { Response: 'Success',
   Ping: 'Pong',
-  Timestamp: '1527847482.614092' }
+  Timestamp: '1530517736.785796' }
 events.js:183
       throw er; // Unhandled 'error' event
       ^
@@ -161,67 +1180,2166 @@ Mysql connected
 Switched to asterisk_cel_nami table
 { Response: 'Success',
   Ping: 'Pong',
-  Timestamp: '1527848677.371523' }
-events.js:183
-      throw er; // Unhandled 'error' event
-      ^
-
-Error: Connection lost: The server closed the connection.
-    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
-    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
-    at emitNone (events.js:111:20)
-    at Socket.emit (events.js:208:7)
-    at endReadableNT (_stream_readable.js:1064:12)
-    at _combinedTickCallback (internal/process/next_tick.js:138:11)
-    at process._tickCallback (internal/process/next_tick.js:180:9)
-Mysql connected
-Switched to asterisk_cel_nami table
-{ Response: 'Success',
-  Ping: 'Pong',
-  Timestamp: '1527849878.340902' }
-events.js:183
-      throw er; // Unhandled 'error' event
-      ^
-
-Error: Connection lost: The server closed the connection.
-    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
-    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
-    at emitNone (events.js:111:20)
-    at Socket.emit (events.js:208:7)
-    at endReadableNT (_stream_readable.js:1064:12)
-    at _combinedTickCallback (internal/process/next_tick.js:138:11)
-    at process._tickCallback (internal/process/next_tick.js:180:9)
-Mysql connected
-Switched to asterisk_cel_nami table
-{ Response: 'Success',
-  Ping: 'Pong',
-  Timestamp: '1527851079.672864' }
-events.js:183
-      throw er; // Unhandled 'error' event
-      ^
-
-Error: Connection lost: The server closed the connection.
-    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
-    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
-    at emitNone (events.js:111:20)
-    at Socket.emit (events.js:208:7)
-    at endReadableNT (_stream_readable.js:1064:12)
-    at _combinedTickCallback (internal/process/next_tick.js:138:11)
-    at process._tickCallback (internal/process/next_tick.js:180:9)
-Mysql connected
-Switched to asterisk_cel_nami table
-{ Response: 'Success',
-  Ping: 'Pong',
-  Timestamp: '1527852281.027656' }
-Trying to save Outbound 1527852750.168
-Sent to save lid=1527852750.168 uid=1527852750.168 operator=203
+  Timestamp: '1530518937.890479' }
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530519103.1224',
+  unique_id: '1530519103.1224',
+  audio_file_name: '1530519103.1224' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530519103.1224' } ]
+Trying to save Outbound 1530519103.1224
+Sent to save lid=1530519103.1224 uid=1530519103.1224 operator=203
 before request
 <br />
 <b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
 
-Trying to save Outbound 1527852869.170
-Sent to save lid=1527852869.170 uid=1527852869.170 operator=203
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530519193.1226',
+  unique_id: '1530519193.1226',
+  audio_file_name: '1530519193.1226' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530519193.1226' } ]
+Trying to save Outbound 1530519193.1226
+Sent to save lid=1530519193.1226 uid=1530519193.1226 operator=203
 before request
 <br />
 <b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
 
+disconnect
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530519391.093610' }
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530519385.1228',
+  unique_id: '1530519385.1228',
+  audio_file_name: '1530519385.1228' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530519385.1228' } ]
+Trying to save Inbound 1530519385.1228
+Sent to save lid=1530519385.1228 uid=1530519385.1228 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530519527.1230',
+  unique_id: '1530519527.1230',
+  audio_file_name: '1530519527.1230' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530519527.1230' } ]
+Trying to save Outbound 1530519527.1230
+Sent to save lid=1530519527.1230 uid=1530519527.1230 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+disconnect
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530519634.598309' }
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530519628.1232',
+  unique_id: '1530519628.1232',
+  audio_file_name: '1530519628.1232' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530519628.1232' } ]
+Trying to save Outbound 1530519628.1232
+Sent to save lid=1530519628.1232 uid=1530519628.1232 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530519786.1234',
+  unique_id: '1530519786.1234',
+  audio_file_name: '1530519786.1234' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530519786.1234' } ]
+Trying to save Outbound 1530519786.1234
+Sent to save lid=1530519786.1234 uid=1530519786.1234 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530519880.1236',
+  unique_id: '1530519880.1236',
+  audio_file_name: '1530519880.1236' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530519880.1236' } ]
+Trying to save Outbound 1530519880.1236
+Sent to save lid=1530519880.1236 uid=1530519880.1236 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530519912.1238',
+  unique_id: '1530519912.1238',
+  audio_file_name: '1530519912.1238' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530519912.1238' } ]
+Trying to save Outbound 1530519912.1238
+Sent to save lid=1530519912.1238 uid=1530519912.1238 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530520007.1240',
+  unique_id: '1530520007.1240',
+  audio_file_name: '1530520007.1240' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530520007.1240' } ]
+Trying to save Outbound 1530520007.1240
+Sent to save lid=1530520007.1240 uid=1530520007.1240 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530520088.1242',
+  unique_id: '1530520088.1242',
+  audio_file_name: '1530520088.1242' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530520088.1242' } ]
+Trying to save Outbound 1530520088.1242
+Sent to save lid=1530520088.1242 uid=1530520088.1242 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530520191.1244',
+  unique_id: '1530520191.1244',
+  audio_file_name: '1530520191.1244' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530520191.1244' } ]
+Trying to save Outbound 1530520191.1244
+Sent to save lid=1530520191.1244 uid=1530520191.1244 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+disconnect
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530520616.034396' }
+disconnect
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530520623.279105' }
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530520606.1246',
+  unique_id: '1530520606.1246',
+  audio_file_name: '1530520606.1246' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530520606.1246' } ]
+Trying to save Outbound 1530520606.1246
+Sent to save lid=1530520606.1246 uid=1530520606.1246 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530521825.778380' }
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530522890.1248',
+  unique_id: '1530522890.1248',
+  audio_file_name: '1530522890.1248' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530522890.1248' } ]
+Trying to save Outbound 1530522890.1248
+Sent to save lid=1530522890.1248 uid=1530522890.1248 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530524110.039081' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530525310.882346' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530526511.142069' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530527714.409380' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530528912.622231' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530530114.431972' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530531314.299227' }
+data:
+{ user_id: '1',
+  number: '+74950098975',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530532307.1250',
+  unique_id: '1530532307.1250',
+  audio_file_name: '1530532307.1250' }
+Trying to save missing 1530532307.1250
+Sent to save lid=1530532307.1250 uid=1530532307.1250 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Error: connect ETIMEDOUT 10.8.1.10:5038
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '10.8.1.10',
+  port: 5038 }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530533550.557167' }
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530533888.034187' }
+data:
+{ user_id: '1',
+  number: '+74950098975',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530533944.1267',
+  unique_id: '1530533944.1267',
+  audio_file_name: '1530533944.1267' }
+Trying to save missing 1530533944.1267
+Sent to save lid=1530533944.1267 uid=1530533944.1267 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+data:
+{ user_id: '19d28b83-7622-11e8-be99-28d24448a93c',
+  number: '+74959892064',
+  operator: '',
+  direction: 'Inbound',
+  linked_id: '1530533994.1271',
+  unique_id: '1530533994.1271',
+  audio_file_name: '1530533994.1271' }
+
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530537966.179689' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530538040.1285' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530538039.1283' } ]
+data:
+{ user_id: '19d28b83-7622-11e8-be99-28d24448a93c',
+  number: '+74959892064',
+  operator: '',
+  direction: 'Inbound',
+  linked_id: '1530538039.1282',
+  unique_id: '1530538039.1282',
+  audio_file_name: '1530538039.1282' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530539279.912232' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530540480.474070' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530541681.455404' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530542142.1287' } ]
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530542142.1287',
+  unique_id: '1530542142.1287',
+  audio_file_name: '1530542142.1287' }
+Trying to save Outbound 1530542142.1287
+Sent to save lid=1530542142.1287 uid=1530542142.1287 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530543352.879239' }
+Mysql connected
+Switched to asterisk_cel_nami table
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530603403.659014' }
+disconnect
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530603623.135151' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530603620.1289' } ]
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530603620.1289',
+  unique_id: '1530603620.1289',
+  audio_file_name: '1530603620.1289' }
+Trying to save Outbound 1530603620.1289
+Sent to save lid=1530603620.1289 uid=1530603620.1289 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530604847.549815' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530606048.238855' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530607249.212348' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530608449.578738' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530609650.554370' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530610851.346969' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530612051.653994' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530613253.961019' }
+disconnect
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530614135.946430' }
+rows
+[ RowDataPacket { calleridnum: '202', unique_id: '1530614127.1291' } ]
+data:
+{ user_id: null,
+  number: '89028957680',
+  operator: '202',
+  direction: 'Outbound',
+  linked_id: '1530614127.1291',
+  unique_id: '1530614127.1291',
+  audio_file_name: '1530614127.1291' }
+no user for 202 = skip saving
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530615354.787808' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530616550.931194' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530617749.706515' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530617886.1295' } ]
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530617886.1295',
+  unique_id: '1530617886.1295',
+  audio_file_name: '1530617886.1295' }
+Trying to save Outbound 1530617886.1295
+Sent to save lid=1530617886.1295 uid=1530617886.1295 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+disconnect
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530617964.476212' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530617981.1299' } ]
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530617981.1299',
+  unique_id: '1530617981.1299',
+  audio_file_name: '1530617981.1299' }
+Trying to save Outbound 1530617981.1299
+Sent to save lid=1530617981.1299 uid=1530617981.1299 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530617960.1297' } ]
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530617960.1297',
+  unique_id: '1530617960.1297',
+  audio_file_name: '1530617960.1297' }
+Trying to save Outbound 1530617960.1297
+Sent to save lid=1530617960.1297 uid=1530617960.1297 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530618050.1301' } ]
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530618050.1301',
+  unique_id: '1530618050.1301',
+  audio_file_name: '1530618050.1301' }
+Trying to save Outbound 1530618050.1301
+Sent to save lid=1530618050.1301 uid=1530618050.1301 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530618362.1303' } ]
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530618362.1303',
+  unique_id: '1530618362.1303',
+  audio_file_name: '1530618362.1303' }
+Trying to save Outbound 1530618362.1303
+Sent to save lid=1530618362.1303 uid=1530618362.1303 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+disconnect
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530618687.906007' }
+(node:7648) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'cid2' of undefined
+    at database.query.then.then.then.rows (C:\OpenServer\domains\asterisk.crm\nami\app.js:83:75)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+(node:7648) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:7648) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530618769.1307' } ]
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530618769.1307',
+  unique_id: '1530618769.1307',
+  audio_file_name: '1530618769.1307' }
+Trying to save Outbound 1530618769.1307
+Sent to save lid=1530618769.1307 uid=1530618769.1307 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530619222.1309' } ]
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530619222.1309',
+  unique_id: '1530619222.1309',
+  audio_file_name: '1530619222.1309' }
+Trying to save Outbound 1530619222.1309
+Sent to save lid=1530619222.1309 uid=1530619222.1309 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530619280.1311' } ]
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530619280.1311',
+  unique_id: '1530619280.1311',
+  audio_file_name: '1530619280.1311' }
+Trying to save Outbound 1530619280.1311
+Sent to save lid=1530619280.1311 uid=1530619280.1311 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+disconnect
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530619791.053560' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530619784.1313' } ]
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530619784.1313',
+  unique_id: '1530619784.1313',
+  audio_file_name: '1530619784.1313' }
+Trying to save Inbound 1530619784.1313
+Sent to save lid=1530619784.1313 uid=1530619784.1313 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530619978.1315' } ]
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530619978.1315',
+  unique_id: '1530619978.1315',
+  audio_file_name: '1530619978.1315' }
+Trying to save Outbound 1530619978.1315
+Sent to save lid=1530619978.1315 uid=1530619978.1315 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530621093.1317' } ]
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530621093.1317',
+  unique_id: '1530621093.1317',
+  audio_file_name: '1530621093.1317' }
+Trying to save Outbound 1530621093.1317
+Sent to save lid=1530621093.1317 uid=1530621093.1317 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+disconnect
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530621230.448811' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530621228.1325' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530621227.1322' },
+  RowDataPacket { calleridnum: '89788274903', unique_id: '1530621248.1326' } ]
+data:
+{ user_id: '19d28b83-7622-11e8-be99-28d24448a93c',
+  number: '+74959664993',
+  operator: '',
+  direction: 'Outbound',
+  linked_id: '1530621227.1319',
+  unique_id: '1530621227.1319',
+  audio_file_name: '1530621227.1319' }
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530621349.148992' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530621377.1332' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530621374.1330' },
+  RowDataPacket { calleridnum: '89788274903', unique_id: '1530621391.1334' } ]
+data:
+{ user_id: 'seed_jim_id',
+  number: '+74950098975',
+  operator: '',
+  direction: 'Inbound',
+  linked_id: '1530621374.1327',
+  unique_id: '1530621374.1327',
+  audio_file_name: '1530621374.1327' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530621587.1341' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530621587.1338' } ]
+data:
+{ user_id: 'seed_jim_id',
+  number: '+74959892064',
+  operator: '',
+  direction: 'Inbound',
+  linked_id: '1530621587.1335',
+  unique_id: '1530621587.1335',
+  audio_file_name: '1530621587.1335' }
+rows
+[]
+data:
+{ user_id: '1',
+  number: '+74959664993',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530621688.1343',
+  unique_id: '1530621688.1343',
+  audio_file_name: '1530621688.1343' }
+Trying to save missing 1530621688.1343
+Sent to save lid=1530621688.1343 uid=1530621688.1343 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+rows
+[]
+data:
+{ user_id: '1',
+  number: '+74950098975',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530621748.1350',
+  unique_id: '1530621748.1350',
+  audio_file_name: '1530621748.1350' }
+Trying to save missing 1530621748.1350
+Sent to save lid=1530621748.1350 uid=1530621748.1350 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+rows
+[]
+data:
+{ user_id: '1',
+  number: '+74950090181',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530621807.1357',
+  unique_id: '1530621807.1357',
+  audio_file_name: '1530621807.1357' }
+Trying to save missing 1530621807.1357
+Sent to save lid=1530621807.1357 uid=1530621807.1357 operator=203
+before request
+
+rows
+[]
+data:
+{ user_id: '1',
+  number: '+74959892064',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530621890.1364',
+  unique_id: '1530621890.1364',
+  audio_file_name: '1530621890.1364' }
+Trying to save missing 1530621890.1364
+Sent to save lid=1530621890.1364 uid=1530621890.1364 operator=203
+before request
+
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530621989.1377' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530621988.1374' } ]
+data:
+{ user_id: 'seed_jim_id',
+  number: '+74959664993',
+  operator: '',
+  direction: 'Inbound',
+  linked_id: '1530621988.1371',
+  unique_id: '1530621988.1371',
+  audio_file_name: '1530621988.1371' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530622049.1385' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530622048.1382' } ]
+data:
+{ user_id: 'seed_jim_id',
+  number: '+74950098975',
+  operator: '',
+  direction: 'Inbound',
+  linked_id: '1530622048.1379',
+  unique_id: '1530622048.1379',
+  audio_file_name: '1530622048.1379' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530622249.1393' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530622249.1390' } ]
+data:
+{ user_id: 'seed_jim_id',
+  number: '+74959892064',
+  operator: '',
+  direction: 'Inbound',
+  linked_id: '1530622249.1387',
+  unique_id: '1530622249.1387',
+  audio_file_name: '1530622249.1387' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530622630.1401' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530622628.1398' },
+  RowDataPacket { calleridnum: '89788274903', unique_id: '1530622645.1402' } ]
+data:
+{ user_id: '19d28b83-7622-11e8-be99-28d24448a93c',
+  number: '+74959664993',
+  operator: '',
+  direction: 'Inbound',
+  linked_id: '1530622628.1395',
+  unique_id: '1530622628.1395',
+  audio_file_name: '1530622628.1395' }
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530622710.025643' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530622739.1409' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530622739.1406' } ]
+data:
+{ user_id: '19d28b83-7622-11e8-be99-28d24448a93c',
+  number: '+74950098975',
+  operator: '',
+  direction: 'Inbound',
+  linked_id: '1530622739.1403',
+  unique_id: '1530622739.1403',
+  audio_file_name: '1530622739.1403' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530622811.1417' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530622809.1414' },
+  RowDataPacket { calleridnum: '89788274903', unique_id: '1530622827.1418' } ]
+data:
+{ user_id: '19d28b83-7622-11e8-be99-28d24448a93c',
+  number: '+74959892064',
+  operator: '',
+  direction: 'Inbound',
+  linked_id: '1530622809.1411',
+  unique_id: '1530622809.1411',
+  audio_file_name: '1530622809.1411' }
+Mysql connected
+Switched to asterisk_cel_nami table
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530622973.779553' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530623002.1433' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530623001.1430' },
+  RowDataPacket { calleridnum: '89788274903', unique_id: '1530623016.1434' } ]
+data:
+{ user_id: '19d28b83-7622-11e8-be99-28d24448a93c',
+  number: '+74950098975',
+  operator: '',
+  direction: 'Inbound',
+  linked_id: '1530623001.1427',
+  unique_id: '1530623001.1427',
+  audio_file_name: '1530623001.1427' }
+Trying to save Inbound 1530623001.1427
+Sent to save lid=1530623001.1427 uid=1530623002.1433 operator=203
+before request
+Trying to save Inbound 1530623001.1427
+Sent to save lid=1530623001.1427 uid=1530623001.1430 operator=4997030211
+before request
+Trying to save Inbound 1530623001.1427
+Sent to save lid=1530623001.1427 uid=1530623016.1434 operator=89788274903
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530624233.405201' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530625433.839874' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530626634.527908' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530627836.676641' }
+disconnect
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530628015.650866' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530628012.1435' } ]
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530628012.1435',
+  unique_id: '1530628012.1435',
+  audio_file_name: '1530628012.1435' }
+Trying to save Inbound 1530628012.1435
+Sent to save lid=1530628012.1435 uid=1530628012.1435 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530629252.292777' }
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530692449.673287' }
+rows
+[]
+data:
+{ user_id: '1',
+  number: '+74959892064',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530692540.1437',
+  unique_id: '1530692540.1437',
+  audio_file_name: '1530692540.1437' }
+Trying to save missing 1530692540.1437
+Sent to save lid=1530692540.1437 uid=1530692540.1437 operator=203
+before request
+
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530692590.1447' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530692588.1445' } ]
+data:
+{ user_id: '1',
+  number: '+74959664993',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530692588.1444',
+  unique_id: '1530692588.1444',
+  audio_file_name: '1530692588.1444' }
+Trying to save Inbound 1530692588.1444
+Sent to save lid=1530692588.1444 uid=1530692590.1447 operator=203
+before request
+Trying to save Inbound 1530692588.1444
+Sent to save lid=1530692588.1444 uid=1530692588.1445 operator=4997030211
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530693810.052329' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530695010.875294' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530696211.686125' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530697412.368542' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530698613.016611' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530699813.703240' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530701014.405204' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530702215.127679' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530703419.943211' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530704616.700626' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530705817.610009' }
+disconnect
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530705957.876816' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530705950.1448' } ]
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530705950.1448',
+  unique_id: '1530705950.1448',
+  audio_file_name: '1530705950.1448' }
+Trying to save Outbound 1530705950.1448
+Sent to save lid=1530705950.1448 uid=1530705950.1448 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530707105.813652' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530707169.1453' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530707167.1451' } ]
+data:
+{ user_id: '1',
+  number: '+74950098975',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530707167.1450',
+  unique_id: '1530707167.1450',
+  audio_file_name: '1530707167.1450' }
+Trying to save Inbound 1530707167.1450
+Sent to save lid=1530707167.1450 uid=1530707169.1453 operator=203
+before request
+Trying to save Inbound 1530707167.1450
+Sent to save lid=1530707167.1450 uid=1530707167.1451 operator=4997030211
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530707236.1457' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530707234.1455' } ]
+data:
+{ user_id: '1',
+  number: '+74959892064',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530707233.1454',
+  unique_id: '1530707233.1454',
+  audio_file_name: '1530707233.1454' }
+Trying to save Inbound 1530707233.1454
+Sent to save lid=1530707233.1454 uid=1530707236.1457 operator=203
+before request
+Trying to save Inbound 1530707233.1454
+Sent to save lid=1530707233.1454 uid=1530707234.1455 operator=4997030211
+before request
+
+
+rows
+[]
+data:
+{ user_id: '1',
+  number: '+74950098975',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530707423.1458',
+  unique_id: '1530707423.1458',
+  audio_file_name: '1530707423.1458' }
+Trying to save missing 1530707423.1458
+Sent to save lid=1530707423.1458 uid=1530707423.1458 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530707529.138180' }
+rows
+[]
+data:
+{ user_id: '41743975-4976-5962-7424-5b2cfd467cbf',
+  number: '+74959892064',
+  operator: '',
+  direction: 'Inbound',
+  linked_id: '1530707515.1465',
+  unique_id: '1530707515.1465',
+  audio_file_name: '1530707515.1465' }
+Trying to save missing 1530707515.1465
+Sent to save lid=1530707515.1465 uid=1530707515.1465 operator=
+before request
+
+rows
+[]
+data:
+{ user_id: '1',
+  number: '+74950098975',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530707578.1471',
+  unique_id: '1530707578.1471',
+  audio_file_name: '1530707578.1471' }
+Trying to save missing 1530707578.1471
+Sent to save lid=1530707578.1471 uid=1530707578.1471 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530707610.616006' }
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530707661.042906' }
+rows
+[]
+data:
+{ user_id: '1',
+  number: '+74959664993',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530707706.1482',
+  unique_id: '1530707706.1482',
+  audio_file_name: '1530707706.1482' }
+Trying to save missing 1530707706.1482
+Sent to save lid=1530707706.1482 uid=1530707706.1482 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+rows
+[]
+data:
+{ user_id: '1',
+  number: '+74950098975',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530707826.1489',
+  unique_id: '1530707826.1489',
+  audio_file_name: '1530707826.1489' }
+Trying to save missing 1530707826.1489
+Sent to save lid=1530707826.1489 uid=1530707826.1489 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530707857.1496' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530707856.1494' } ]
+data:
+{ user_id: '1',
+  number: '+79788274903',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530707856.1493',
+  unique_id: '1530707856.1493',
+  audio_file_name: '1530707856.1493' }
+Trying to save Inbound 1530707856.1493
+Sent to save lid=1530707856.1493 uid=1530707857.1496 operator=203
+before request
+Trying to save Inbound 1530707856.1493
+Sent to save lid=1530707856.1493 uid=1530707856.1494 operator=4997030211
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530707897.1500' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530707894.1498' } ]
+data:
+{ user_id: '1',
+  number: '+79788274903',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530707893.1497',
+  unique_id: '1530707893.1497',
+  audio_file_name: '1530707893.1497' }
+Trying to save Inbound 1530707893.1497
+Sent to save lid=1530707893.1497 uid=1530707897.1500 operator=203
+before request
+Trying to save Inbound 1530707893.1497
+Sent to save lid=1530707893.1497 uid=1530707894.1498 operator=4997030211
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+rows
+[]
+data:
+{ user_id: '1',
+  number: '+74950090181',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530707991.1501',
+  unique_id: '1530707991.1501',
+  audio_file_name: '1530707991.1501' }
+Trying to save missing 1530707991.1501
+Sent to save lid=1530707991.1501 uid=1530707991.1501 operator=203
+before request
+
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530708039.1508' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530708039.1506' } ]
+data:
+{ user_id: '1',
+  number: '+79788274903',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530708039.1505',
+  unique_id: '1530708039.1505',
+  audio_file_name: '1530708039.1505' }
+Trying to save Inbound 1530708039.1505
+Sent to save lid=1530708039.1505 uid=1530708039.1508 operator=203
+before request
+Trying to save Inbound 1530708039.1505
+Sent to save lid=1530708039.1505 uid=1530708039.1506 operator=4997030211
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530708399.1512' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530708399.1510' } ]
+data:
+{ user_id: '00906c1a-7ec0-11e8-a6e9-28d24448a93c',
+  number: '+79788274903',
+  operator: '',
+  direction: 'Inbound',
+  linked_id: '1530708398.1509',
+  unique_id: '1530708398.1509',
+  audio_file_name: '1530708398.1509' }
+rows
+[]
+data:
+{ user_id: '1',
+  number: '+74959892064',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530708465.1514',
+  unique_id: '1530708465.1514',
+  audio_file_name: '1530708465.1514' }
+Trying to save missing 1530708465.1514
+Sent to save lid=1530708465.1514 uid=1530708465.1514 operator=203
+before request
+
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530708710.607794' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530708739.1525' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530708738.1523' } ]
+data:
+{ user_id: '1',
+  number: '+74950098975',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530708738.1522',
+  unique_id: '1530708738.1522',
+  audio_file_name: '1530708738.1522' }
+Trying to save Inbound 1530708738.1522
+Sent to save lid=1530708738.1522 uid=1530708739.1525 operator=203
+before request
+Trying to save Inbound 1530708738.1522
+Sent to save lid=1530708738.1522 uid=1530708738.1523 operator=4997030211
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530709184.1529' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530709184.1527' } ]
+data:
+{ user_id: '1',
+  number: '+74959892064',
+  operator: '203',
+  direction: 'Inbound',
+  linked_id: '1530709184.1526',
+  unique_id: '1530709184.1526',
+  audio_file_name: '1530709184.1526' }
+Trying to save Inbound 1530709184.1526
+Sent to save lid=1530709184.1526 uid=1530709184.1529 operator=203
+before request
+Trying to save Inbound 1530709184.1526
+Sent to save lid=1530709184.1526 uid=1530709184.1527 operator=4997030211
+before request
+
+
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530709257.1533' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530709256.1531' } ]
+data:
+{ user_id: '00906c1a-7ec0-11e8-a6e9-28d24448a93c',
+  number: '+74959664993',
+  operator: '',
+  direction: 'Inbound',
+  linked_id: '1530709256.1530',
+  unique_id: '1530709256.1530',
+  audio_file_name: '1530709256.1530' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530709342.1538' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530709341.1536' } ]
+data:
+{ user_id: '00906c1a-7ec0-11e8-a6e9-28d24448a93c',
+  number: '+74950098975',
+  operator: '',
+  direction: 'Inbound',
+  linked_id: '1530709341.1535',
+  unique_id: '1530709341.1535',
+  audio_file_name: '1530709341.1535' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530709413.1543' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530709412.1541' },
+  RowDataPacket { calleridnum: '89787595878', unique_id: '1530709429.1544' } ]
+data:
+{ user_id: '00906c1a-7ec0-11e8-a6e9-28d24448a93c',
+  number: '+74959892064',
+  operator: '',
+  direction: 'Inbound',
+  linked_id: '1530709412.1540',
+  unique_id: '1530709412.1540',
+  audio_file_name: '1530709412.1540' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530709511.1548' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530709509.1546' } ]
+data:
+{ user_id: '00906c1a-7ec0-11e8-a6e9-28d24448a93c',
+  number: '+74950090181',
+  operator: '',
+  direction: 'Inbound',
+  linked_id: '1530709509.1545',
+  unique_id: '1530709509.1545',
+  audio_file_name: '1530709509.1545' }
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530709585.1553' },
+  RowDataPacket { calleridnum: '4997030211', unique_id: '1530709584.1551' } ]
+data:
+{ user_id: '00906c1a-7ec0-11e8-a6e9-28d24448a93c',
+  number: '+74950090181',
+  operator: '',
+  direction: 'Inbound',
+  linked_id: '1530709584.1550',
+  unique_id: '1530709584.1550',
+  audio_file_name: '1530709584.1550' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530710819.052358' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530712018.574948' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530713218.383832' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530714419.062404' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530715620.057018' }
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530796771.632045' }
+linkedID:1530796784.1555
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530796784.1555' } ]
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530796784.1555',
+  unique_id: '1530796784.1555',
+  audio_file_name: '1530796784.1555' }
+Trying to save Outbound 1530796784.1555
+Sent to save lid=1530796784.1555 uid=1530796784.1555 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+linkedID:1530796865.1557
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530796865.1557' } ]
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530796865.1557',
+  unique_id: '1530796865.1557',
+  audio_file_name: '1530796865.1557' }
+Trying to save Outbound 1530796865.1557
+Sent to save lid=1530796865.1557 uid=1530796865.1557 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+linkedID:1530797297.1559
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530797297.1559' } ]
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530797297.1559',
+  unique_id: '1530797297.1559',
+  audio_file_name: '1530797297.1559' }
+Trying to save Outbound 1530797297.1559
+Sent to save lid=1530797297.1559 uid=1530797297.1559 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+linkedID:1530797356.1561
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530797356.1561' } ]
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530797356.1561',
+  unique_id: '1530797356.1561',
+  audio_file_name: '1530797356.1561' }
+Trying to save Outbound 1530797356.1561
+Sent to save lid=1530797356.1561 uid=1530797356.1561 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530798571.900062' }
+linkedID:1530799604.1563
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530799604.1563' } ]
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530799604.1563',
+  unique_id: '1530799604.1563',
+  audio_file_name: '1530799604.1563' }
+Trying to save Outbound 1530799604.1563
+Sent to save lid=1530799604.1563 uid=1530799604.1563 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+linkedID:1530799700.1565
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530799700.1565' } ]
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530799700.1565',
+  unique_id: '1530799700.1565',
+  audio_file_name: '1530799700.1565' }
+Trying to save Outbound 1530799700.1565
+Sent to save lid=1530799700.1565 uid=1530799700.1565 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+linkedID:1530800165.1567
+rows
+[ RowDataPacket { calleridnum: '203', unique_id: '1530800165.1567' } ]
+data:
+{ user_id: '1',
+  number: '89788274903',
+  operator: '203',
+  direction: 'Outbound',
+  linked_id: '1530800165.1567',
+  unique_id: '1530800165.1567',
+  audio_file_name: '1530800165.1567' }
+Trying to save Outbound 1530800165.1567
+Sent to save lid=1530800165.1567 uid=1530800165.1567 operator=203
+before request
+<br />
+<b>Fatal error</b>:  Call to undefined method after_relationship_add_class::add_utm_contacts() in <b>C:\OpenServer\domains\asterisk.crm\include\utils\LogicHook.php</b> on line <b>262</b><br />
+
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530801383.207580' }
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\protocol\Protocol.js:113:13)
+    at Socket.<anonymous> (C:\OpenServer\domains\asterisk.crm\nami\node_modules\mysql\lib\Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Mysql connected
+Switched to asterisk_cel_nami table
+{ Response: 'Success',
+  Ping: 'Pong',
+  Timestamp: '1530802584.356981' }
+{ Error: read ECONNRESET
+    at _errnoException (util.js:992:11)
+    at TCP.onread (net.js:618:25) code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+disconnect
+Mysql connected
+Switched to asterisk_cel_nami table
