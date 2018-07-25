@@ -195,10 +195,10 @@ $(document).ready(function () {
         }
 
         //слушатель изменения релейт поля (срабатывает на изменение скрытого input с id)
-        if ((typeof $('#parent_id').val() !== 'undefined') && $('#parent_id').val() !== last_parent_id) {
+        if ((typeof $('#popup_call_form input#parent_id').val() !== 'undefined') && $('#popup_call_form input#parent_id').val() !== last_parent_id) {
             // console.log('id changed');
-            last_parent_id = $('#parent_id').val();
-            $('#client_name').val($('#parent_name').val());
+            last_parent_id = $('#popup_call_form input#parent_id').val();
+            $('#popup_call_form input#client_name').val($('#popup_call_form input#parent_name').val());
             // get_contact($('#parent_id').val());
         }
 
@@ -482,8 +482,9 @@ function init_actions() {
     //открытие формы звонка
     $('body').on('click', '#softphone_form div.add-call', function (event) {
         // getCallForm(localStorage['softphone_number']));
-        if ($('input[name=tel]').val() != "") {
-            var str = getCallForm($('input[name=tel]').val());
+        var number = $('input[name=tel]').val();
+        if (number != "") {
+            var str = getCallForm(number);
             $('body').append(str);
             $('.window').draggable({containment: "body", handle: ".title"});
             var x = $('body').width() - 600;
@@ -491,6 +492,10 @@ function init_actions() {
                 top: 100,
                 left: $('#softphone_form').position().left - $('#popup_call_form').width() - 20
             });
+            if (location.href.indexOf('action=DetailView')) {
+                get_call_history(number);
+                get_contact(number);
+            }
             if ($('#popup_call_form').lenght > 0)
                 changeParentQS("parent_name");
         }
@@ -842,7 +847,9 @@ function getCallForm(number) {
     // form += '        </tr>';
     form += '    <table border="1" cellpadding="0" cellspacing="0" id="call_history" width="100%">';
     if (typeof number !== 'undefined') {
-        calls = get_call_history(number);
+        if (!location.href.indexOf('action=DetailView')) {
+            get_call_history(number);
+        }
         // if (calls.length > 0) {
         //     form += '    <table border="1" cellpadding="0" cellspacing="0" id="call_history" width="100%">';
         //     form += '        <tr>';
@@ -882,7 +889,9 @@ function getCallForm(number) {
 // form += '	<div class="minimize_call_form" title="Свернуть"></div>';
     form += '</div>\n';
 
-    get_contact(number);
+    if (!location.href.indexOf('action=DetailView')) {
+        get_contact(number);
+    }
 
     return form;
 }
@@ -1369,7 +1378,8 @@ function get_call_history(phone_number) {
                         form += '        </tr>';
                         form += '<br><i>Нет данных</i>'
                     }
-                    $('#call_history').append(form);
+                    // $('#call_history').append(form);$('#popup_call_form table#call_history')
+                    $('#popup_call_form table#call_history').append(form);
                 },
             error: function (result) {
                 // alert('oops');
@@ -1447,7 +1457,7 @@ function set_return(popup_reply_data) {
 }
 
 function get_contact(phone_number) {
-    var response;
+    var response = new Object();
     $.ajax(
         {
             type: 'post',
@@ -1460,8 +1470,10 @@ function get_contact(phone_number) {
                     response = result;
                     if ($('#popup_call_form').length && result != '-1') {
                         // $('#client_name').val(result);
-                        $('#parent_name').val(result.full_name);
-                        $('#parent_id').val(result.id);
+                        // $('#parent_name').val(result.full_name);
+                        // $('#parent_id').val(result.id);
+                        $('#popup_call_form input#parent_name').val(result.full_name);
+                        $('#popup_call_form input#parent_id').val(result.id);
                     }
                 },
             error: function (result) {
@@ -1469,7 +1481,6 @@ function get_contact(phone_number) {
                 console.log(result);
             }
         });
-    return response;
 }
 
 // function popupEditCallReady(){
