@@ -196,7 +196,7 @@ $(document).ready(function () {
 
         //слушатель изменения релейт поля (срабатывает на изменение скрытого input с id)
         if ((typeof $('#popup_call_form input#parent_id').val() !== 'undefined') && $('#popup_call_form input#parent_id').val() !== last_parent_id) {
-            // console.log('id changed');
+            console.log('id changed');
             last_parent_id = $('#popup_call_form input#parent_id').val();
             $('#popup_call_form input#client_name').val($('#popup_call_form input#parent_name').val());
             // get_contact($('#parent_id').val());
@@ -1473,6 +1473,7 @@ function get_contact(phone_number) {
                         // $('#parent_name').val(result.full_name);
                         // $('#parent_id').val(result.id);
                         $('#popup_call_form input#parent_name').val(result.full_name);
+                        $('#popup_call_form input#client_name').val(result.full_name);
                         $('#popup_call_form input#parent_id').val(result.id);
                     }
                 },
